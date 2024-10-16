@@ -1,7 +1,7 @@
 # Generate uuid
 
 ```js
-const crypto = require("crypto");
+import crypto  from "node:crypto"
 
 let uuid = crypto.randomUUID();
 ```
